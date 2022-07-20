@@ -47,15 +47,9 @@ body {
     width: 60%;
   }
 }
-@media screen and (min-width: 320px) {
-  .calculator {
-    width: 80%;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .calculator {
-    width: 95%;
+    width: 80%;
   }
 }
 
