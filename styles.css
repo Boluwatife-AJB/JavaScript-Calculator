@@ -39,20 +39,6 @@ body {
   height: 70%;
 }
 
-@media screen and (min-width: 768px) {
-  .container {
-    width: 70%;
-  }
-  .calculator {
-    width: 60%;
-  }
-}
-@media screen and (max-width: 320px) {
-  .calculator {
-    width: 80%;
-  }
-}
-
 .calculator--screen {
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   font-size: 3.5rem;
@@ -141,4 +127,31 @@ button {
 
 .zero {
   border-bottom-left-radius: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 70%;
+  }
+  .calculator {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 470px) {
+  .container {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    width: 90%;
+  }
+
+  .calculator--screen {
+    font-size: 1.4rem;
+  }
+
+  .container p {
+    font-size: 1.5rem;
+  }
+  .calculator {
+    width: 90%;
+  }
 }
